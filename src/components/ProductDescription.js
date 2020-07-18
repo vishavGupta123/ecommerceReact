@@ -34,9 +34,6 @@ class ProductDescription extends Component {
           />
         </div>
         <div>Price:{product.price}</div>
-        <div>
-          <button>Add To Cart</button>
-        </div>
         <div>Description:{product.description}</div>
       </div>
     );
