@@ -24,9 +24,20 @@ class ProductDescription extends Component {
     return (
       <div>
         <div>
-          <img src={product.img} />
+          <img
+            src={product.img}
+            style={{
+              width: 300,
+              height: 250,
+            }}
+            className="product-description"
+          />
         </div>
         <div>Price:{product.price}</div>
+        <div>
+          <button>Add To Cart</button>
+        </div>
+        <div>Description:{product.description}</div>
       </div>
     );
   }
